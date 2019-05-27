@@ -1,0 +1,47 @@
+#advantage {
+  background-color: #e8f8f9;
+  height: 900px;
+  overflow: hidden;
+
+  .title {
+    padding-top: 30px;
+    justify-content: center;
+
+    &:before {
+      content: '';
+      width: 60px;
+      height: 18px;
+      background-image: url("../img/portrait.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: block;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    p {
+      font-family: $font2;
+      font-size: 30px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .info {
+    text-align: center;
+
+    p {
+      font-family: $font1;
+      font-size: 16px;
+    }
+
+    .second_line {
+      width: 180px;
+      height: 180px;
+      border: 3px solid #FFF;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+}
