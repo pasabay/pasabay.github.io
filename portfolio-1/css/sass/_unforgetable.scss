@@ -23,6 +23,9 @@
             }
         }
     }
+    .form {
+        justify-content: center;
+    }
     .wrapper {
         width: inherit;
         height: auto;
@@ -33,7 +36,7 @@
             .line {
                 width: 320px;
                 height: 320px;
-                transition: all 0.2s;
+                transition: all 1s;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -42,14 +45,12 @@
                 background-image: url("../img/linepic.png");
                 &:hover {
                     background-image: url("../img/linepic_h.png");
-                    transition: 0.4s;
                 }
             }
             &_2 {
                 background-image: url("../img/linepic-2.png");
                 &:hover {
                     background-image: url("../img/linepic2_h.png");
-                    transition: 0.4s;
                 }
             }
             &_3 {
@@ -64,14 +65,12 @@
                 background-image: url("../img/linepic-5.png");
                 &:hover {
                     background-image: url("../img/linepic5_h.png");
-                    transition: 0.4s;
                 }
             }
             &_6 {
                 background-image: url("../img/linepic-6.png");
                 &:hover {
                     background-image: url("../img/linepic6_h.png");
-                    transition: 0.4s;
                 }
             }
         }
