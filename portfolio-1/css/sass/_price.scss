@@ -1,66 +1,80 @@
 #price {
-  background-color: #FFF;
-  height: 845px;
-  overflow: hidden;
-
-  .title {
-    padding-top: 40px;
-    justify-content: center;
-
-    &:before {
-      content: '';
-      width: 60px;
-      height: 18px;
-      background-image: url("../img/cash.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      display: block;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
+    background-color: #FFF;
+    overflow: hidden;
+    .title {
+        padding-top: 40px;
+        justify-content: center;
+        &:before {
+            content: '';
+            width: 60px;
+            height: 18px;
+            background-image: url("../img/cash.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }
-
-    p {
-      font-family: $font2;
-      font-size: 30px;
-      text-align: center;
-      margin: 0;
+    .order_info {
+        text-align: center;
+        margin-top: 75px;
+        margin-bottom: 80px;
+        .order-item {
+            padding-top: 60px;
+            align-items: center;
+            .wrapper {
+                border: 2px solid #e8e8e8;
+                display: block;
+                &:hover {
+                    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+                    transition: 0.4s;
+                }
+            }
+        }
+        .h2 {
+            font-family: $font3;
+            font-size: 48px;
+            color: #5ba2a9;
+        }
+        p {
+            font-family: $font1;
+            font-size: 16px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        span {
+            font-family: $font1;
+            font-size: 18px;
+            color: #5ba2a9;
+        }
     }
-  }
-
-  .order_info {
-    text-align: center;
-
-    h2 {
-      font-family: $font3;
-      font-size: 48px;
-      color: #5ba2a9;
+    .price-btn {
+        display: flex;
+        width: 200px;
+        height: 55px;
+        border: 2px solid #e8e8e8;
+        background-color: #fff;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        .price-btn-text {
+            font-family: $font2;
+            font-size: 16px;
+            color: #5a5a5a;
+        }
+        &:hover {
+            .price-btn-text {
+                color: #fff;
+            }
+            background-color: #5ba2a9;
+            border: 0;
+            text-decoration: none;
+            transition: 0.4s;
+        }
     }
-
-    p {
-      font-family: $font1;
-      font-size: 16px;
-    }
-
-    span {
-      font-family: $font1;
-      font-size: 18px;
-      color: #5ba2a9;
-    }
-  }
-
-  input {
-    font-family: $font2;
-    font-size: 16px;
-    height: 50px;
-    width: 196px;
-    border: 2px solid #e8e8e8;
-    background-color: #fff;
-
-    &:hover {
-      background-color: #5ba2a9;
-      border: 0;
-      color: #fff;
-    }
-  }
 }

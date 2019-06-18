@@ -1,15 +1,29 @@
 /*Defaults*/
+
 @import "default/fonts";
-@import "default/variables"; //@import "default/media-queries";
+@import "default/variables";
+//@import "default/media-queries";
 @import "default/normalize";
-@import "tools/bootstrap"; //@import "tools/foundation";
+@import "tools/bootstrap";
+@import "default/mixins";
+@import "default/common";
+@import "tools/slick/slick-theme";
+@import "tools/slick/slick";
+//@import "tools/foundation";
 //@import "tools/twentytwenty-no-compass";
+
 /*
 Design
 */
+
 @import "header";
 @import "footer";
 @import "unforgetable";
 @import "motivation";
 @import "price";
 @import "advantage";
+@import "remember";
+@import "noneed";
+@import "feedback";
+@import "owners";
+@import "questions";

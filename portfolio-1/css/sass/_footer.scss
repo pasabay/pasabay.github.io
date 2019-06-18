@@ -1,34 +1,28 @@
 #footer {
-  background-color: #222222;
-  overflow: hidden;
-  height: 150px;
-  color: #fff;
-
-  .container {
-    height: inherit;
-    width: inherit;
-  }
-
-  .logo {
-    background-image: url("../img/logo.png");
-    background-repeat: no-repeat;
-    width: 213px;
-    height: 3.125rem;
-    margin-top: 3.125rem;
-    padding-bottom: 3.125rem;
-  }
-
-  .ph-number {
-    padding: 3.125rem 0;
-
-    p {
-      padding: 0;
-      margin-bottom: 0;
-    }
-  }
-
-  .order_call {
-    text-decoration: underline;
+    background-color: #222222;
+    overflow: hidden;
     color: #fff;
-  }
+    .container {
+        height: inherit;
+        width: inherit;
+    }
+    .logo {
+        background-image: url("../img/logo.png");
+        background-repeat: no-repeat;
+        width: 213px;
+        height: 3.125rem;
+        margin-top: 3.125rem;
+        padding-bottom: 3.125rem;
+    }
+    .ph-number {
+        padding: 3.125rem 0;
+        p {
+            padding: 0;
+            margin-bottom: 0;
+        }
+    }
+    .order_call {
+        text-decoration: underline;
+        color: #fff;
+    }
 }
