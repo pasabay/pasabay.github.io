@@ -2,6 +2,15 @@
     padding: 45px 0 0 0;
     margin-top: 0;
     border-bottom: 1px solid #c4c4c4;
+    h2 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        font-family: "Tahoma", sans-serif;
+        text-transform: uppercase;
+        color: #f79420;
+        margin: 0 0 30px;
+    }
     ul {
         margin: 0 -15px 80px;
         display: flex;
@@ -10,6 +19,10 @@
         li {
             padding: 0 15px;
             margin: 0;
+            background: #fff;
+            color: #555555;
+            overflow: hidden;
+            font: normal 16px/24px "Tahoma", sans-serif;
         }
     }
 }

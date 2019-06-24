@@ -1394,10 +1394,14 @@ th {
       line-height: 20px;
       font-family: "Tahoma", sans-serif;
       text-transform: uppercase; }
+  .header a {
+    color: #000; }
+    .header a:hover {
+      color: #f79420; }
 
 .prof {
   margin-top: 72px;
-  background: url(../img/bgh.png) no-repeat center;
+  background: url(../img/bgh.jpg) no-repeat center;
   background-size: cover; }
   .prof .text-box {
     padding: 100px 0;
@@ -1511,11 +1515,23 @@ th {
     text-transform: none; }
     .products .color strong {
       color: #f79420; }
+  .products img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; }
 
 #experts {
   padding: 45px 0 0 0;
   margin-top: 0;
   border-bottom: 1px solid #c4c4c4; }
+  #experts h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: "Tahoma", sans-serif;
+    text-transform: uppercase;
+    color: #f79420;
+    margin: 0 0 30px; }
   #experts ul {
     margin: 0 -15px 80px;
     display: -webkit-box;
@@ -1525,7 +1541,11 @@ th {
     padding: 0; }
     #experts ul li {
       padding: 0 15px;
-      margin: 0; }
+      margin: 0;
+      background: #fff;
+      color: #555555;
+      overflow: hidden;
+      font: normal 16px/24px "Tahoma", sans-serif; }
 
 #clients {
   padding-bottom: 80px;
