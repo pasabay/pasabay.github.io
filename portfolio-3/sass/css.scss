@@ -1,14 +1,14 @@
 /*Defaults*/
 
-@import "default/mq";
-@import "default/fonts";
-@import "default/variables";
+@import "../sass/default/mq";
+@import "../sass/default/fonts";
+@import "../sass/default/variables";
 //@import "default/media-queries";
-@import "default/normalize";
-@import "default/mixins";
-@import "default/common";
-@import "tools/slick/slick-theme";
-@import "tools/slick/slick";
+@import "../sass/default/normalize";
+@import "../sass/default/mixins";
+@import "../sass/default/common";
+@import "../sass/tools/slick/slick-theme";
+@import "../sass/tools/slick/slick";
 //@import "tools/foundation";
 //@import "tools/twentytwenty-no-compass";
 
@@ -16,6 +16,6 @@
 Design
 */
 
-@import "design/header";
-@import "design/news-section";
-@import "design/_advert-slider";
+@import "../sass/design/header";
+@import "../sass/design/news-section";
+@import "../sass/design/advert-slider";
