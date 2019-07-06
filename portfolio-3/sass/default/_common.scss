@@ -1,0 +1,23 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {}
+
+.news {
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        transition: all.5s;
+    }
+    &:hover:before {
+        background: rgba(31, 48, 99, .66);
+    }
+}
