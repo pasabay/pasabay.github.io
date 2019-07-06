@@ -699,7 +699,7 @@ Design
       left: 0;
       margin-bottom: 20px; }
   .news-section .row .news-block-1 {
-    background: url(/img/news-block-1.png) no-repeat;
+    background: url(../img/news-block-1.png) no-repeat;
     background-size: cover;
     width: 555px;
     height: 555px; }
@@ -712,41 +712,41 @@ Design
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
       .news-section .row .wrapper-news .wrapper-left .news-block-2 {
-        background: url(/img/news-block-2.png) no-repeat;
+        background: url(../img/news-block-2.png) no-repeat;
         background-size: cover;
         height: 263px;
         width: 263px; }
       .news-section .row .wrapper-news .wrapper-left .insta-link {
         display: block;
-        background: url(/img/insta-link.png) no-repeat;
+        background: url(../img/insta-link.png) no-repeat;
         width: 269px;
         height: 323px;
         margin-top: -65px;
         position: relative; }
   .news-section .row .news-block-3 {
-    background: url(/img/news-block-3.png) no-repeat;
+    background: url(../img/news-block-3.png) no-repeat;
     background-size: cover;
     width: 555px;
     height: 259px;
     margin-top: 35px; }
   .news-section .row .news-block-4 {
-    background: url(/img/news-block-4.png) no-repeat;
+    background: url(../img/news-block-4.png) no-repeat;
     background-size: cover;
     height: 260px;
     margin: 35px auto; }
   .news-section .row .news-block-5 {
-    background: url(/img/news-block-5.png) no-repeat;
+    background: url(../img/news-block-5.png) no-repeat;
     background-size: cover;
     width: 360px;
     height: 165px; }
   .news-section .row .news-block-6 {
-    background: url(/img/news-block-6.png) no-repeat;
+    background: url(../img/news-block-6.png) no-repeat;
     background-size: cover;
     width: 360px;
     height: 165px;
     margin-top: 31px; }
   .news-section .row .news-block-7 {
-    background: url(/img/news-block-7.png) no-repeat;
+    background: url(../img/news-block-7.png) no-repeat;
     background-size: cover;
     width: 360px;
     height: 360px; }
@@ -759,7 +759,7 @@ Design
       position: absolute;
       width: 360px;
       height: 498px;
-      background-image: url("/img/map-bg.png");
+      background-image: url("../img/map-bg.png");
       background-repeat: no-repeat;
       background-size: contain; }
     .news-section .row .wrapper-map .map {
