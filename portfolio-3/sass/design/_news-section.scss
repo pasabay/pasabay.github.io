@@ -8,31 +8,20 @@
             text-decoration: none;
         }
         h3 {
-            font-family: $font2;
             font-size: 14px;
-            color: #ffffff;
             margin: 23px auto auto 20px;
         }
         h4 {
-            font-family: $font2;
-            font-size: 22px;
             line-height: 30px;
-            color: #ffffff;
             margin: 17px auto auto 20px;
         }
         .h4 {
-            font-family: $font2;
-            font-size: 22px;
             line-height: 30px;
-            color: #ffffff;
             margin-top: 105px;
             text-align: center;
         }
         .h4_inst {
-            font-family: $font2;
-            font-size: 22px;
             line-height: 30px;
-            color: #ffffff;
             margin-top: 113px;
             text-align: center;
         }
@@ -40,7 +29,7 @@
             font-family: $font1;
             font-size: 16px;
             line-height: 24px;
-            color: #ffffff;
+            color: $white;
             margin: 17px auto auto 20px;
         }
         .news-block {
@@ -134,10 +123,46 @@
                 }
             }
             .refresh-button {
-                width: 302px;
-                height: 296px;
-                background-color: blue;
+                // width: 302px;
+                // height: 296px;
+                width: 130px;
+                height: 130px;
+                // width: 206px;
+                // height: 206px;
+                background-color: #b5dff5;
                 border-radius: 50%;
+                text-align: center;
+                span {}
+                .circle-1 {
+                    width: 829px;
+                    height: 829px;
+                    background: rgba(255, 255, 255, .6);
+                    border-radius: 100%;
+                    position: absolute;
+                    z-index: 100;
+                }
+                .circle-2 {
+                    width: 561px;
+                    height: 561px;
+                    background: rgba(255, 255, 255, .6);
+                    border-radius: 100%;
+                    position: absolute;
+                    z-index: 100;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                .circle-3 {
+                    width: 383px;
+                    height: 383px;
+                    background: rgba(255, 255, 255, .6);
+                    border-radius: 100%;
+                    position: absolute;
+                    z-index: 100;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
             }
         }
     }
