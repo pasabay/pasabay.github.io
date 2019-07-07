@@ -1,0 +1,79 @@
+h2,
+.h2 {
+    font-family: $font2;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+h3,
+.h3 {
+    font-family: $font2;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+h4,
+.h4 {
+    font-family: $font1;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+
+.feed_text {
+    display: block;
+    width: 820px;
+    height: 340px;
+    background-color: #fff;
+    position: absolute;
+    padding-left: 180px;
+    margin-left: 240px;
+    font-family: $font2;
+    font-size: 20px;
+    padding-top: 95px;
+}
+
+.form_new {
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    input {
+        margin: 0 5px;
+        @include mq(sm) {
+            width: 100% !important;
+        }
+    }
+    .input_name {
+        width: 300px;
+        height: 56px;
+        border: 3px solid #d0d0d0;
+        background-image: url("../img/face.png");
+        background-repeat: no-repeat;
+        background-position: right 20px center;
+    }
+    .input_phone {
+        width: 300px;
+        height: 56px;
+        border: 3px solid #d0d0d0;
+        background-image: url("../img/phone.png");
+        background-repeat: no-repeat;
+        background-position: right 20px center;
+    }
+    .input_submit {
+        width: 300px;
+        height: 56px;
+        border: none;
+        background-color: #5ba2a9;
+        font-family: $font2;
+        font-size: 20px;
+        color: #FFF;
+    }
+    input::placeholder {
+        padding-left: 20px;
+    }
+}
