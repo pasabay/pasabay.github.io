@@ -810,13 +810,15 @@ Design
       width: 302px;
       height: 302px;
       z-index: -200; }
-      .news-section .btn .test-button:hover .circle-button::before,
-      .news-section .btn .test-button .circle-button::after {
+      .news-section .btn .test-button:hover .circle-button::before {
         -webkit-transform: scale(1);
                 transform: scale(1); }
       .news-section .btn .test-button:hover .circle-button::after {
         -webkit-transform: scale(1);
                 transform: scale(1); }
+      .news-section .btn .test-button:hover img {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg); }
       .news-section .btn .test-button .circle-button {
         width: 130px;
         height: 130px;
@@ -828,6 +830,11 @@ Design
         left: 28%;
         word-wrap: none;
         overflow-wrap: unset; }
+        .news-section .btn .test-button .circle-button img {
+          position: relative;
+          top: 23%;
+          -webkit-transition: all 1s;
+          transition: all 1s; }
         .news-section .btn .test-button .circle-button::before {
           content: " ";
           width: 206px;
@@ -858,7 +865,6 @@ Design
           transition: all 0.3s; }
     .news-section .btn a {
       display: block;
-      position: relative;
       height: 14px;
       width: 250px;
       top: 44%;
@@ -942,16 +948,16 @@ Design
       text-transform: uppercase;
       margin-top: 80px;
       margin-bottom: 43px; }
-    .about .info-text .text .p {
+    .about .info-text .text .text-line {
       display: block;
       margin-top: 15px;
       font-family: "Century Gothic";
       font-size: 18px;
       line-height: 30px; }
 
-.footer .p {
+.footer .copyright-text {
   display: block;
-  margin-top: 15px;
+  margin-top: 14px;
   color: #888888; }
 .footer ul {
   display: -webkit-box;

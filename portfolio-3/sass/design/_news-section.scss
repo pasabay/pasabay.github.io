@@ -183,12 +183,14 @@
                 // opacity: 0;
                 // top: 28%;
                 // right: 28%;
-                &:hover .circle-button::before,
-                .circle-button::after {
+                &:hover .circle-button::before {
                     transform: scale(1);
                 }
                 &:hover .circle-button::after {
                     transform: scale(1);
+                }
+                &:hover img {
+                    transform: rotate(360deg)
                 }
                 .circle-button {
                     width: 130px;
@@ -201,6 +203,11 @@
                     left: 28%;
                     word-wrap: none;
                     overflow-wrap: unset;
+                    img {
+                        position: relative;
+                        top: 23%;
+                        transition: all 1s;
+                    }
                     &::before {
                         content: " ";
                         width: 206px;
@@ -255,7 +262,6 @@
             }
             a {
                 display: block;
-                position: relative;
                 height: 14px;
                 width: 250px;
                 top: 44%;
