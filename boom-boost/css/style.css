@@ -1,0 +1,1006 @@
+@charset "UTF-8";
+/*Defaults*/
+@font-face {
+  font-family: 'Myriad Pro Light SemiCond';
+  src: url("/fonts/MyriadPro-SemiboldSemiCn.eot");
+  src: url("/fonts/MyriadPro-SemiboldSemiCn.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-SemiboldSemiCn.woff2") format("woff2"), url("/fonts/MyriadPro-SemiboldSemiCn.woff") format("woff"), url("/fonts/MyriadPro-SemiboldSemiCn.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Myriad Pro Light Cond';
+  src: url("/fonts/MyriadPro-SemiboldCond.eot");
+  src: url("/fonts/MyriadPro-SemiboldCond.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-SemiboldCond.woff2") format("woff2"), url("/fonts/MyriadPro-SemiboldCond.woff") format("woff"), url("/fonts/MyriadPro-SemiboldCond.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Myriad Pro Cond';
+  src: url("/fonts/MyriadPro-Cond.eot");
+  src: url("/fonts/MyriadPro-Cond.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-Cond.woff2") format("woff2"), url("/fonts/MyriadPro-Cond.woff") format("woff"), url("/fonts/MyriadPro-Cond.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("/fonts/MyriadPro-Semibold.eot");
+  src: url("/fonts/MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-Semibold.woff2") format("woff2"), url("/fonts/MyriadPro-Semibold.woff") format("woff"), url("/fonts/MyriadPro-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Myriad Pro Light SemiCond';
+  src: url("/fonts/MyriadPro-SemiboldSemiCn_1.eot");
+  src: url("/fonts/MyriadPro-SemiboldSemiCn_1.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-SemiboldSemiCn_1.woff2") format("woff2"), url("/fonts/MyriadPro-SemiboldSemiCn_1.woff") format("woff"), url("/fonts/MyriadPro-SemiboldSemiCn_1.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Myriad Pro SemiCond';
+  src: url("/fonts/MyriadPro-BoldSemiCn.eot");
+  src: url("/fonts/MyriadPro-BoldSemiCn.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-BoldSemiCn.woff2") format("woff2"), url("/fonts/MyriadPro-BoldSemiCn.woff") format("woff"), url("/fonts/MyriadPro-BoldSemiCn.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Phantom of the Opera';
+  src: url("/fonts/PhantomoftheOpera.eot");
+  src: url("/fonts/PhantomoftheOpera.eot?#iefix") format("embedded-opentype"), url("/fonts/PhantomoftheOpera.woff2") format("woff2"), url("/fonts/PhantomoftheOpera.woff") format("woff"), url("/fonts/PhantomoftheOpera.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Intro';
+  src: url("/fonts/Intro-Regular.eot");
+  src: url("/fonts/Intro-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Intro-Regular.woff2") format("woff2"), url("/fonts/Intro-Regular.woff") format("woff"), url("/fonts/Intro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Myriad Pro Cn It';
+  src: url("/fonts/MyriadPro-BoldSemiCnIt.eot");
+  src: url("/fonts/MyriadPro-BoldSemiCnIt.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-BoldSemiCnIt.woff2") format("woff2"), url("/fonts/MyriadPro-BoldSemiCnIt.woff") format("woff"), url("/fonts/MyriadPro-BoldSemiCnIt.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'Intro';
+  src: url("/fonts/Intro.eot");
+  src: url("/fonts/Intro.eot?#iefix") format("embedded-opentype"), url("/fonts/Intro.woff2") format("woff2"), url("/fonts/Intro.woff") format("woff"), url("/fonts/Intro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'LayertNoise';
+  src: url("/fonts/LayertNoise.eot");
+  src: url("/fonts/LayertNoise.eot?#iefix") format("embedded-opentype"), url("/fonts/LayertNoise.woff2") format("woff2"), url("/fonts/LayertNoise.woff") format("woff"), url("/fonts/LayertNoise.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("/fonts/MyriadPro-Regular.eot");
+  src: url("/fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-Regular.woff2") format("woff2"), url("/fonts/MyriadPro-Regular.woff") format("woff"), url("/fonts/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/*
+Design
+*/
+.wrapper {
+  width: 64px;
+  height: 100%;
+  position: fixed;
+  background-color: #1a242a;
+  display: block; }
+  .wrapper .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: space-evenly;
+        align-content: space-evenly;
+    width: inherit;
+    height: inherit;
+    /* when menu open: */ }
+    .wrapper .navbar .button {
+      display: block;
+      position: relative;
+      margin: 10px;
+      cursor: pointer; }
+    .wrapper .navbar .hamburger-button {
+      color: #808080;
+      display: block;
+      position: relative;
+      padding: 0;
+      height: 30px;
+      font-size: 0;
+      text-indent: -9999px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      border: none;
+      border-radius: none;
+      -webkit-transition: background 0.3s;
+      transition: background 0.3s; }
+    .wrapper .navbar .hamburger-button:focus {
+      outline: none; }
+    .wrapper .navbar .hamburger-button span {
+      display: block;
+      position: absolute;
+      height: 5px;
+      width: 32px;
+      background: #808080;
+      border-radius: 25%; }
+    .wrapper .navbar .hamburger-button span::before,
+    .wrapper .navbar .hamburger-button span::after {
+      position: absolute;
+      display: block;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background-color: #808080;
+      border-radius: 25%;
+      content: ""; }
+    .wrapper .navbar .hamburger-button span::before {
+      top: -10px; }
+    .wrapper .navbar .hamburger-button span::after {
+      bottom: -10px; }
+    .wrapper .navbar .hamburger-button.hamburger-button__animx span {
+      -webkit-transition: background 0s 0.3s;
+      transition: background 0s 0.3s; }
+    .wrapper .navbar .hamburger-button.hamburger-button__animx span::before,
+    .wrapper .navbar .hamburger-button.hamburger-button__animx span::after {
+      -webkit-transition-duration: 0.3s, 0.3s;
+      transition-duration: 0.3s, 0.3s;
+      -webkit-transition-delay: 0.3s, 0s;
+      transition-delay: 0.3s, 0s; }
+    .wrapper .navbar .hamburger-button.hamburger-button__animx span::before {
+      -webkit-transition-property: top, transform;
+      -webkit-transition-property: top, -webkit-transform;
+      transition-property: top, -webkit-transform;
+      transition-property: top, transform;
+      transition-property: top, transform, -webkit-transform; }
+    .wrapper .navbar .hamburger-button.hamburger-button__animx span::after {
+      -webkit-transition-property: bottom, transform;
+      -webkit-transition-property: bottom, -webkit-transform;
+      transition-property: bottom, -webkit-transform;
+      transition-property: bottom, transform;
+      transition-property: bottom, transform, -webkit-transform; }
+    .wrapper .navbar .hamburger-button.hamburger-button__animx.is-active span {
+      background: none; }
+    .wrapper .navbar .hamburger-button.hamburger-button__animx.is-active span::before,
+    .wrapper .navbar .hamburger-button.hamburger-button__animx.is-active span::after {
+      background-color: #808080;
+      -webkit-transition-delay: 0s, 0.3s;
+      transition-delay: 0s, 0.3s; }
+    .wrapper .navbar .hamburger-button.hamburger-button__animx.is-active span::before {
+      top: 0;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    .wrapper .navbar .hamburger-button.hamburger-button__animx.is-active span::after {
+      bottom: 0;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+
+.header {
+  padding-left: 50px; }
+  .header .region {
+    position: relative;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    right: 6px;
+    font-family: "Myriad Pro";
+    color: #838383;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .header .region a {
+      font-family: "Myriad Pro";
+      color: #838383;
+      font-size: 20px; }
+      @media (max-width: 1024px) {
+        .header .region a span {
+          display: none; } }
+      .header .region a img {
+        height: 20px; }
+  .header .anchor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #838383;
+    font-size: 20px; }
+    .header .anchor a {
+      color: #838383;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-decoration: none; }
+  .header .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "LayertNoise";
+    font-size: 118px;
+    line-height: 74px;
+    margin-top: 60px;
+    margin-bottom: 60px; }
+  .header .site-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .header .site-info h2 {
+      font-family: "Myriad Pro Cond";
+      font-size: 33px;
+      text-align: center; }
+  .header .games {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .header .games .plate-wrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .header .games .plate-wrap .game-logo-wcraft {
+        position: absolute;
+        top: 36%;
+        left: 45%; }
+      .header .games .plate-wrap .game-logo-league {
+        position: absolute;
+        top: 36%;
+        left: 46%; }
+      .header .games .plate-wrap .game-logo-dota {
+        position: absolute;
+        top: 37%;
+        left: 47%; }
+  .header .block-name {
+    margin-top: 80px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Myriad Pro Cond"; }
+  .header .img-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .header .pusher-text {
+    font-size: 34px;
+    text-align: center;
+    font-family: "Myriad Pro Cond";
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .header .pusher-info {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    margin-bottom: 85px; }
+  .header .slider {
+    width: 100%; }
+  .header .slide {
+    background: url(/img/slider-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 550px; }
+    .header .slide .slide-name {
+      position: relative;
+      background-color: rgba(209, 209, 209, 0.7);
+      font-size: 37px;
+      font-family: "Myriad Pro Cond";
+      top: 10%;
+      width: 32%;
+      padding-left: 1%; }
+    .header .slide .counter {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 100%;
+      padding-left: 2%;
+      padding-right: 2%; }
+
+.content {
+  margin-top: 65px;
+  padding-left: 50px; }
+  .content .container .content-name {
+    text-align: center;
+    font-family: "Myriad Pro Cond";
+    font-size: 35px;
+    margin-bottom: 25px; }
+  .content .container .cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .content .container .cards .card-svg-border {
+      margin-bottom: 38px;
+      max-width: 364px;
+      height: 366px;
+      padding: 0; }
+      .content .container .cards .card-svg-border .card {
+        position: relative;
+        margin: 15px;
+        height: 330px;
+        color: #ffffff; }
+        .content .container .cards .card-svg-border .card:before {
+          content: "";
+          display: block;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          -webkit-transition: background .5s;
+          transition: background .5s;
+          z-index: -1; }
+        .content .container .cards .card-svg-border .card:hover .card-name {
+          display: none; }
+        .content .container .cards .card-svg-border .card:hover .card-info {
+          display: block;
+          text-align: left;
+          padding-left: 5%;
+          padding-top: 16%;
+          font-family: "Myriad Pro";
+          font-size: 24px;
+          color: #1a2227;
+          z-index: 3; }
+          .content .container .cards .card-svg-border .card:hover .card-info a {
+            z-index: 3;
+            display: block;
+            position: absolute;
+            bottom: 3%;
+            left: 46%;
+            text-decoration: none;
+            color: #1a2227; }
+        .content .container .cards .card-svg-border .card:hover .buy-btn {
+          display: none; }
+        .content .container .cards .card-svg-border .card:hover .price {
+          display: none; }
+        .content .container .cards .card-svg-border .card:hover:before {
+          background: rgba(225, 225, 225, 0.67); }
+        .content .container .cards .card-svg-border .card .card-name {
+          position: relative;
+          background-color: rgba(209, 209, 209, 0.59);
+          font-family: "Myriad Pro Light SemiCond";
+          font-size: 25px;
+          text-transform: uppercase;
+          width: 75%;
+          top: 15%;
+          text-align: center; }
+        .content .container .cards .card-svg-border .card .card-info {
+          display: none; }
+        .content .container .cards .card-svg-border .card .buy-btn {
+          background-color: rgba(209, 209, 209, 0.49);
+          position: absolute;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          top: 70%;
+          right: 0;
+          font-family: "Myriad Pro Light SemiCond";
+          font-size: 18px;
+          text-transform: uppercase;
+          width: 55%;
+          height: 42px;
+          padding-left: 5%; }
+          .content .container .cards .card-svg-border .card .buy-btn a {
+            position: absolute;
+            right: 0;
+            height: 100%;
+            width: 26%;
+            background: url(/img/card-button.png); }
+            .content .container .cards .card-svg-border .card .buy-btn a:hover {
+              background: url(/img/card-button-hover.png); }
+        .content .container .cards .card-svg-border .card .price {
+          position: absolute;
+          font-family: "Myriad Pro Light SemiCond";
+          font-size: 30px;
+          text-transform: uppercase;
+          bottom: 0;
+          left: 3%; }
+        .content .container .cards .card-svg-border .card-azshara {
+          background-image: url(/img/card-bg-azshara.png);
+          background-size: cover;
+          z-index: 0; }
+        .content .container .cards .card-svg-border .card-lol {
+          background: url(/img/card-bg-lol.png);
+          background-size: cover;
+          z-index: 0; }
+        .content .container .cards .card-svg-border .card-knockwurst {
+          background: url(/img/card-bg-knockwurst.png);
+          background-size: cover;
+          z-index: 0; }
+        .content .container .cards .card-svg-border .card-arena {
+          background: url(/img/card-bg-arena.png);
+          background-size: cover;
+          z-index: 0; }
+        .content .container .cards .card-svg-border .card-witch {
+          background: url(/img/card-bg-witch.png);
+          background-size: cover;
+          z-index: 0; }
+        .content .container .cards .card-svg-border .card-noname {
+          background: url(/img/card-bg-noname.png);
+          background-size: cover;
+          z-index: 0; }
+        .content .container .cards .card-svg-border .card-dota {
+          background: url(/img/card-bg-dota.png);
+          background-size: cover;
+          z-index: 0; }
+        .content .container .cards .card-svg-border .card-patch {
+          background: url(/img/card-bg-patch.png);
+          background-size: cover;
+          z-index: 0; }
+        .content .container .cards .card-svg-border .card-dota-last {
+          background: url(/img/card-bg-dota-last.png);
+          background-size: cover;
+          z-index: 0; }
+
+/*
+Tools
+*/
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none; }
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  .slick-slide img {
+    display: block; }
+  .slick-slide.slick-loading img {
+    display: none; }
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  .slick-initialized .slick-slide {
+    display: block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+/* Slider */
+.slick-loading .slick-list {
+  background: #fff url("./ajax-loader.gif") center center no-repeat; }
+
+/* Icons */
+@font-face {
+  font-family: "slick";
+  src: url("./fonts/slick.eot");
+  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Arrows */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none; }
+  .slick-prev:hover, .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+    outline: none; }
+  .slick-prev.slick-disabled:before,
+  .slick-next.slick-disabled:before {
+    opacity: 0.25; }
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 1;
+    color: white;
+    opacity: 0.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+.slick-prev {
+  left: 25px;
+  background: url(/img/arrow-prev.png) no-repeat;
+  width: 50px;
+  height: 100px;
+  z-index: 999; }
+
+.slick-next {
+  right: 0px;
+  z-index: 999;
+  background: url(/img/arrow-next.png) no-repeat;
+  width: 50px;
+  height: 100px; }
+
+/* Dots */
+.slick-dotted.slick-slider {
+  margin-bottom: 30px; }
+
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer; }
+    .slick-dots li button {
+      border: 0;
+      background: transparent;
+      display: block;
+      height: 20px;
+      width: 20px;
+      outline: none;
+      line-height: 0px;
+      font-size: 0px;
+      color: transparent;
+      padding: 5px;
+      cursor: pointer; }
+      .slick-dots li button:hover, .slick-dots li button:focus {
+        outline: none; }
+        .slick-dots li button:hover:before, .slick-dots li button:focus:before {
+          opacity: 1; }
+      .slick-dots li button:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "•";
+        width: 20px;
+        height: 20px;
+        font-family: "slick";
+        font-size: 6px;
+        line-height: 20px;
+        text-align: center;
+        color: black;
+        opacity: 0.25;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+    .slick-dots li.slick-active button:before {
+      color: black;
+      opacity: 0.75; }
+
+/*# sourceMappingURL=style.css.map */

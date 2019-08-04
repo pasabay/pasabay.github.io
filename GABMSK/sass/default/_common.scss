@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/img/wow_bg.jpg) no-repeat center top fixed, rgba(0, 0, 0, .6);
+    background-size: 100% 100%;
+}
+
+a,
+li {
+    text-decoration: none !important;
+    list-style-type: none;
+}
+
+a,
+body,
+button,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+li,
+ol,
+p,
+ul {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #d4d3d3;
+}
+
+.bgWrap {
+    background: rgba(0, 0, 0, .4);
+    border: 1px solid #5d5c5c;
+}
+
+.basic {
+    font-family: 'Britannic', sans-serif;
+    font-weight: 700;
+    padding: 0 14px;
+}
