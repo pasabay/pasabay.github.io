@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Defaults*/
 
 @import "../sass/default/mq";
@@ -23,4 +24,31 @@ Tools
 */
 
 @import "../sass/tools/slick";
+=======
+/*Defaults*/
+
+@import "../sass/default/mq";
+@import "../sass/default/fonts";
+@import "../sass/default/variables";
+@import "../sass/default/normalize";
+@import "../sass/default/mixins";
+@import "../sass/default/common";
+// @import "../sass/tools/slick/slick-theme";
+// @import "../sass/tools/slick/slick";
+
+/*
+Design
+*/
+
+@import "../sass/design/navbar";
+@import "../sass/design/header";
+@import "../sass/design/content";
+@import "../sass/design/footer";
+
+/*
+Tools
+*/
+
+@import "../sass/tools/slick";
+>>>>>>> master
 @import "../sass/tools/_slick-theme";

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin mq($point) {
     @each $breakpoint,
     $widths in $breakpoint-widths {
@@ -10,4 +11,18 @@
 }
 
 $breakpoint-widths: ( lg: 1200px, md: 997px, sm: 768px, xs: 576px)!default;
+=======
+@mixin mq($point) {
+    @each $breakpoint,
+    $widths in $breakpoint-widths {
+        @if $point==$breakpoint {
+            @media (max-width: $widths) {
+                @content;
+            }
+        }
+    }
+}
+
+$breakpoint-widths: ( lg: 1200px, md: 997px, sm: 768px, xs: 576px)!default;
+>>>>>>> master
 $container-widths: ( lg: 900px, lg2: 900px, md: 750px, sm: 558px, xs: auto)!default;
