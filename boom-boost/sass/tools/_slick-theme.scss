@@ -116,7 +116,7 @@ $slick-opacity-not-active: 0.25 !default;
 // }
 .slick-prev {
     left: 25px;
-    background: url(/img/arrow-prev.png) no-repeat;
+    background: url(../img/arrow-prev.png) no-repeat;
     width: 50px;
     height: 100px;
     z-index: 999;
@@ -129,7 +129,7 @@ $slick-opacity-not-active: 0.25 !default;
     //     right: auto;
     right: 0px;
     z-index: 999;
-    background: url(/img/arrow-next.png) no-repeat;
+    background: url(../img/arrow-next.png) no-repeat;
     width: 50px;
     height: 100px;
 }
