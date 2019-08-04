@@ -1,0 +1,18 @@
+/*Defaults*/
+
+@import "../sass/default/mq";
+@import "../sass/default/fonts";
+@import "../sass/default/variables";
+//@import "default/media-queries";
+@import "../sass/default/normalize";
+@import "../sass/default/mixins";
+@import "../sass/default/common";
+// @import "../sass/tools/slick/slick-theme";
+// @import "../sass/tools/slick/slick";
+
+/*
+Design
+*/
+
+@import "../sass/design/header";
+@import "../sass/design/content";
