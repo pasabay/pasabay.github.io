@@ -1,5 +1,5 @@
 .footer {
-    padding-left: 50px;
+    padding-left: 65px;
     .container {
         .feedback {
             display: flex;
@@ -48,7 +48,7 @@
             }
         }
     }
-    .container-fluid {
+    .instagram {
         background: url(../img/instagram-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -61,6 +61,35 @@
             iframe {
                 max-width: 251px;
                 max-height: 243px;
+            }
+        }
+    }
+    .copyright {
+        margin-top: 17px;
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .livechat {
+                a {
+                    width: inherit;
+                    height: inherit;
+                }
+            }
+            .c-info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .bitcoin {
+                    max-width: 261px;
+                }
+            }
+            .to-top-btn {
+                a {
+                    width: inherit;
+                    height: inherit;
+                }
             }
         }
     }

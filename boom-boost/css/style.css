@@ -438,7 +438,7 @@ th {
 Design
 */
 .wrapper {
-  width: 64px;
+  width: 65px;
   height: 100%;
   position: fixed;
   background-color: #1a242a;
@@ -537,7 +537,7 @@ Design
       transform: rotate(-45deg); }
 
 .header {
-  padding-left: 50px; }
+  padding-left: 65px; }
   .header .region {
     position: relative;
     padding-top: 5px;
@@ -678,7 +678,7 @@ Design
 
 .content {
   margin-top: 65px;
-  padding-left: 50px; }
+  padding-left: 65px; }
   .content .container {
     padding: 0; }
     .content .container .content-name {
@@ -687,12 +687,8 @@ Design
       font-size: 35px;
       margin-bottom: 25px; }
     .content .container .cards {
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      .content .container .cards .middle {
-        margin-left: 40px;
-        margin-right: 20px; }
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
       .content .container .cards .card-svg-border {
         margin-bottom: 38px;
         max-width: 368px;
@@ -821,7 +817,7 @@ Design
             z-index: 0; }
 
 .footer {
-  padding-left: 50px; }
+  padding-left: 65px; }
   .footer .container .feedback {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -867,13 +863,13 @@ Design
       font-family: "Myriad Pro Cond";
       font-size: 38px;
       text-transform: uppercase; }
-  .footer .container-fluid {
+  .footer .instagram {
     background: url(../img/instagram-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 279px;
     margin-top: 15px; }
-    .footer .container-fluid .instagram-iframe-wrap {
+    .footer .instagram .instagram-iframe-wrap {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -883,9 +879,43 @@ Design
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      .footer .container-fluid .instagram-iframe-wrap iframe {
+      .footer .instagram .instagram-iframe-wrap iframe {
         max-width: 251px;
         max-height: 243px; }
+  .footer .copyright {
+    margin-top: 17px; }
+    .footer .copyright .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .footer .copyright .row .livechat a {
+        width: inherit;
+        height: inherit; }
+      .footer .copyright .row .c-info {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .footer .copyright .row .c-info .bitcoin {
+          max-width: 261px; }
+      .footer .copyright .row .to-top-btn a {
+        width: inherit;
+        height: inherit; }
 
 /*
 Tools

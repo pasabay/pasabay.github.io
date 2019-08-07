@@ -1,6 +1,6 @@
 .content {
     margin-top: 65px;
-    padding-left: 50px;
+    padding-left: 65px;
     .container {
         padding: 0;
         .content-name {
@@ -10,11 +10,7 @@
             margin-bottom: 25px;
         }
         .cards {
-            justify-content: center;
-            .middle {
-                margin-left: 40px;
-                margin-right: 20px;
-            }
+            justify-content: space-around;
             .card-svg-border {
                 margin-bottom: 38px;
                 max-width: 368px;
