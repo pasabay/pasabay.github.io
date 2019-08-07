@@ -44,6 +44,10 @@
         line-height: 74px;
         margin-top: 60px;
         margin-bottom: 60px;
+        img {
+            position: relative;
+            bottom: 20px;
+        }
     }
     .site-info {
         display: flex;

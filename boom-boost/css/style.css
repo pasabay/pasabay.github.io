@@ -587,6 +587,9 @@ Design
     line-height: 74px;
     margin-top: 60px;
     margin-bottom: 60px; }
+    .header .logo img {
+      position: relative;
+      bottom: 20px; }
   .header .site-info {
     display: -webkit-box;
     display: -ms-flexbox;
