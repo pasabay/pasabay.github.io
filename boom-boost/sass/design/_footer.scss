@@ -1,0 +1,67 @@
+.footer {
+    padding-left: 50px;
+    .container {
+        .feedback {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .review {
+            font-family: $font3;
+            font-size: 39px;
+            text-transform: uppercase;
+        }
+        .trustpilot {
+            font-family: $font1;
+            font-size: 26px;
+            text-transform: uppercase;
+        }
+        .trustscore {
+            font-family: $font3;
+            font-size: 18px;
+        }
+        .autoplay {
+            width: 100%;
+            margin-bottom: 75px;
+            .slick-arrow {
+                display: none !important;
+            }
+        }
+        .feedback-slide-wrap {
+            max-width: 285px;
+            height: 215px;
+            background: url(../img/feedback-wrap.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: relative;
+            padding-left: 35px;
+            padding-top: 30px;
+        }
+        .instagram-feed {
+            display: flex;
+            justify-content: center;
+            .feed {
+                text-align: center;
+                font-family: $font3;
+                font-size: 38px;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .container-fluid {
+        background: url(../img/instagram-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 279px;
+        margin-top: 15px;
+        .instagram-iframe-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            iframe {
+                max-width: 251px;
+                max-height: 243px;
+            }
+        }
+    }
+}

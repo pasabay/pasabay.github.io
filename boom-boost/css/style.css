@@ -679,140 +679,213 @@ Design
 .content {
   margin-top: 65px;
   padding-left: 50px; }
-  .content .container .content-name {
+  .content .container {
+    padding: 0; }
+    .content .container .content-name {
+      text-align: center;
+      font-family: "Myriad Pro Cond";
+      font-size: 35px;
+      margin-bottom: 25px; }
+    .content .container .cards {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .content .container .cards .middle {
+        margin-left: 40px;
+        margin-right: 20px; }
+      .content .container .cards .card-svg-border {
+        margin-bottom: 38px;
+        max-width: 368px;
+        height: 368px;
+        padding: 0;
+        background: url(../img/card-wrap.png); }
+        .content .container .cards .card-svg-border .card {
+          position: relative;
+          margin: 15px;
+          height: 330px;
+          color: #ffffff; }
+          .content .container .cards .card-svg-border .card:before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            -webkit-transition: background .5s;
+            transition: background .5s;
+            z-index: -1; }
+          .content .container .cards .card-svg-border .card:target .card-name {
+            display: none; }
+          .content .container .cards .card-svg-border .card:target .card-info {
+            display: block;
+            text-align: left;
+            padding-left: 5%;
+            padding-top: 16%;
+            font-family: "Myriad Pro";
+            font-size: 24px;
+            color: #1a2227;
+            z-index: 3; }
+            .content .container .cards .card-svg-border .card:target .card-info a {
+              z-index: 3;
+              display: block;
+              position: absolute;
+              bottom: 3%;
+              left: 46%;
+              text-decoration: none;
+              color: #1a2227; }
+          .content .container .cards .card-svg-border .card:target .buy-btn {
+            display: none; }
+          .content .container .cards .card-svg-border .card:target .price {
+            display: none; }
+          .content .container .cards .card-svg-border .card:target:before {
+            background: rgba(225, 225, 225, 0.67); }
+          .content .container .cards .card-svg-border .card .card-name {
+            position: relative;
+            background-color: rgba(209, 209, 209, 0.59);
+            font-family: "Myriad Pro Light SemiCond";
+            font-size: 25px;
+            text-transform: uppercase;
+            width: 75%;
+            top: 15%;
+            text-align: center; }
+          .content .container .cards .card-svg-border .card .card-info {
+            display: none; }
+          .content .container .cards .card-svg-border .card .buy-btn {
+            background-color: rgba(209, 209, 209, 0.49);
+            position: absolute;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            top: 70%;
+            right: 0;
+            font-family: "Myriad Pro Light SemiCond";
+            font-size: 18px;
+            text-transform: uppercase;
+            width: 55%;
+            height: 42px;
+            padding-left: 5%; }
+            .content .container .cards .card-svg-border .card .buy-btn a {
+              position: absolute;
+              right: 0;
+              height: 100%;
+              width: 26%;
+              background: url(../img/card-button.png); }
+              .content .container .cards .card-svg-border .card .buy-btn a:hover {
+                background: url(../img/card-button-hover.png); }
+          .content .container .cards .card-svg-border .card .price {
+            position: absolute;
+            font-family: "Myriad Pro Light SemiCond";
+            font-size: 30px;
+            text-transform: uppercase;
+            bottom: 0;
+            left: 3%; }
+          .content .container .cards .card-svg-border .card-azshara {
+            background-image: url(../img/card-bg-azshara.png);
+            background-size: cover;
+            z-index: 0; }
+          .content .container .cards .card-svg-border .card-lol {
+            background: url(../img/card-bg-lol.png);
+            background-size: cover;
+            z-index: 0; }
+          .content .container .cards .card-svg-border .card-knockwurst {
+            background: url(../img/card-bg-knockwurst.png);
+            background-size: cover;
+            z-index: 0; }
+          .content .container .cards .card-svg-border .card-arena {
+            background: url(../img/card-bg-arena.png);
+            background-size: cover;
+            z-index: 0; }
+          .content .container .cards .card-svg-border .card-witch {
+            background: url(../img/card-bg-witch.png);
+            background-size: cover;
+            z-index: 0; }
+          .content .container .cards .card-svg-border .card-noname {
+            background: url(../img/card-bg-noname.png);
+            background-size: cover;
+            z-index: 0; }
+          .content .container .cards .card-svg-border .card-dota {
+            background: url(../img/card-bg-dota.png);
+            background-size: cover;
+            z-index: 0; }
+          .content .container .cards .card-svg-border .card-patch {
+            background: url(../img/card-bg-patch.png);
+            background-size: cover;
+            z-index: 0; }
+          .content .container .cards .card-svg-border .card-dota-last {
+            background: url(../img/card-bg-dota-last.png);
+            background-size: cover;
+            z-index: 0; }
+
+.footer {
+  padding-left: 50px; }
+  .footer .container .feedback {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     text-align: center;
-    font-family: "Myriad Pro Cond";
-    font-size: 35px;
-    margin-bottom: 25px; }
-  .content .container .cards {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    .content .container .cards .card-svg-border {
-      margin-bottom: 38px;
-      max-width: 364px;
-      height: 366px;
-      padding: 0; }
-      .content .container .cards .card-svg-border .card {
-        position: relative;
-        margin: 15px;
-        height: 330px;
-        color: #ffffff; }
-        .content .container .cards .card-svg-border .card:before {
-          content: "";
-          display: block;
-          position: absolute;
-          left: 0;
-          right: 0;
-          top: 0;
-          bottom: 0;
-          -webkit-transition: background .5s;
-          transition: background .5s;
-          z-index: -1; }
-        .content .container .cards .card-svg-border .card:hover .card-name {
-          display: none; }
-        .content .container .cards .card-svg-border .card:hover .card-info {
-          display: block;
-          text-align: left;
-          padding-left: 5%;
-          padding-top: 16%;
-          font-family: "Myriad Pro";
-          font-size: 24px;
-          color: #1a2227;
-          z-index: 3; }
-          .content .container .cards .card-svg-border .card:hover .card-info a {
-            z-index: 3;
-            display: block;
-            position: absolute;
-            bottom: 3%;
-            left: 46%;
-            text-decoration: none;
-            color: #1a2227; }
-        .content .container .cards .card-svg-border .card:hover .buy-btn {
-          display: none; }
-        .content .container .cards .card-svg-border .card:hover .price {
-          display: none; }
-        .content .container .cards .card-svg-border .card:hover:before {
-          background: rgba(225, 225, 225, 0.67); }
-        .content .container .cards .card-svg-border .card .card-name {
-          position: relative;
-          background-color: rgba(209, 209, 209, 0.59);
-          font-family: "Myriad Pro Light SemiCond";
-          font-size: 25px;
-          text-transform: uppercase;
-          width: 75%;
-          top: 15%;
-          text-align: center; }
-        .content .container .cards .card-svg-border .card .card-info {
-          display: none; }
-        .content .container .cards .card-svg-border .card .buy-btn {
-          background-color: rgba(209, 209, 209, 0.49);
-          position: absolute;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          top: 70%;
-          right: 0;
-          font-family: "Myriad Pro Light SemiCond";
-          font-size: 18px;
-          text-transform: uppercase;
-          width: 55%;
-          height: 42px;
-          padding-left: 5%; }
-          .content .container .cards .card-svg-border .card .buy-btn a {
-            position: absolute;
-            right: 0;
-            height: 100%;
-            width: 26%;
-            background: url(../img/card-button.png); }
-            .content .container .cards .card-svg-border .card .buy-btn a:hover {
-              background: url(../img/card-button-hover.png); }
-        .content .container .cards .card-svg-border .card .price {
-          position: absolute;
-          font-family: "Myriad Pro Light SemiCond";
-          font-size: 30px;
-          text-transform: uppercase;
-          bottom: 0;
-          left: 3%; }
-        .content .container .cards .card-svg-border .card-azshara {
-          background-image: url(../img/card-bg-azshara.png);
-          background-size: cover;
-          z-index: 0; }
-        .content .container .cards .card-svg-border .card-lol {
-          background: url(../img/card-bg-lol.png);
-          background-size: cover;
-          z-index: 0; }
-        .content .container .cards .card-svg-border .card-knockwurst {
-          background: url(../img/card-bg-knockwurst.png);
-          background-size: cover;
-          z-index: 0; }
-        .content .container .cards .card-svg-border .card-arena {
-          background: url(../img/card-bg-arena.png);
-          background-size: cover;
-          z-index: 0; }
-        .content .container .cards .card-svg-border .card-witch {
-          background: url(../img/card-bg-witch.png);
-          background-size: cover;
-          z-index: 0; }
-        .content .container .cards .card-svg-border .card-noname {
-          background: url(../img/card-bg-noname.png);
-          background-size: cover;
-          z-index: 0; }
-        .content .container .cards .card-svg-border .card-dota {
-          background: url(../img/card-bg-dota.png);
-          background-size: cover;
-          z-index: 0; }
-        .content .container .cards .card-svg-border .card-patch {
-          background: url(../img/card-bg-patch.png);
-          background-size: cover;
-          z-index: 0; }
-        .content .container .cards .card-svg-border .card-dota-last {
-          background: url(../img/card-bg-dota-last.png);
-          background-size: cover;
-          z-index: 0; }
+  .footer .container .review {
+    font-family: "Myriad Pro Cond";
+    font-size: 39px;
+    text-transform: uppercase; }
+  .footer .container .trustpilot {
+    font-family: "Myriad Pro";
+    font-size: 26px;
+    text-transform: uppercase; }
+  .footer .container .trustscore {
+    font-family: "Myriad Pro Cond";
+    font-size: 18px; }
+  .footer .container .autoplay {
+    width: 100%;
+    margin-bottom: 75px; }
+    .footer .container .autoplay .slick-arrow {
+      display: none !important; }
+  .footer .container .feedback-slide-wrap {
+    max-width: 285px;
+    height: 215px;
+    background: url(../img/feedback-wrap.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 35px;
+    padding-top: 30px; }
+  .footer .container .instagram-feed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .footer .container .instagram-feed .feed {
+      text-align: center;
+      font-family: "Myriad Pro Cond";
+      font-size: 38px;
+      text-transform: uppercase; }
+  .footer .container-fluid {
+    background: url(../img/instagram-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 279px;
+    margin-top: 15px; }
+    .footer .container-fluid .instagram-iframe-wrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .footer .container-fluid .instagram-iframe-wrap iframe {
+        max-width: 251px;
+        max-height: 243px; }
 
 /*
 Tools
@@ -935,7 +1008,7 @@ Tools
 
 .slick-prev {
   left: 25px;
-  background: url(/img/arrow-prev.png) no-repeat;
+  background: url(../img/arrow-prev.png) no-repeat;
   width: 50px;
   height: 100px;
   z-index: 999; }
@@ -943,7 +1016,7 @@ Tools
 .slick-next {
   right: 0px;
   z-index: 999;
-  background: url(/img/arrow-next.png) no-repeat;
+  background: url(../img/arrow-next.png) no-repeat;
   width: 50px;
   height: 100px; }
 
